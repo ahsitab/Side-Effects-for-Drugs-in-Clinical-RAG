@@ -1,0 +1,17 @@
+# Credentials and instance secrets
+.env
+.env.*
+Neo4j/
+credentials*.txt
+secrets/
+
+# Raw intermediates and embeddings cache
+data/*.tsv
+data/*.gz
+chromadb/
+
+# Python & Jupyter checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+scratch/

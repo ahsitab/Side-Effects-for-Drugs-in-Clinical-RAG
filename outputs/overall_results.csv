@@ -1,0 +1,6 @@
+,GraphRAG,VectorRAG
+token_f1,0.0914,0.0405
+hit_at_5,0.375,0.9583
+refusal_correct,0.1667,0.0
+latency_s,0.9071,0.2992
+context_tokens,28.8333,331.1333

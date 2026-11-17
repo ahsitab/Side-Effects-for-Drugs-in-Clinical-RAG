@@ -1,0 +1,32 @@
+{
+  "dataset": "Machine Learning Prediction of Side Effects for Drugs in Clinical Trials (SIDER Clinical Associations)",
+  "source": "Mendeley Data",
+  "doi": "10.17632/3z7c4r52n3.1",
+  "doi_url": "https://doi.org/10.17632/3z7c4r52n3.1",
+  "repository_url": "https://data.mendeley.com/datasets/3z7c4r52n3/1",
+  "contributors": "Diego Galeano, Alberto Paccanaro",
+  "license": "CC BY 4.0",
+  "published_date": "2022-10-03",
+  "original_drugs": 1430,
+  "original_se_links": 163206,
+  "original_ind_links": 17880,
+  "sampled_drugs": 500,
+  "sampled_se_links": 50663,
+  "sampled_ind_links": 6811,
+  "unique_side_effects": 2972,
+  "unique_diseases": 1991,
+  "graph_entities": [
+    "Drug",
+    "SideEffect",
+    "Disease"
+  ],
+  "graph_relationships": [
+    "HAS_SIDE_EFFECT (Drug→SideEffect)",
+    "TREATS (Drug→Disease)"
+  ],
+  "quality_notes": [
+    "Filtered to MedDRA PT (Preferred Term) to eliminate synonym redundancy",
+    "Sampled 500 drugs possessing both clinical indications and adverse reactions for Aura Free compatibility",
+    "Linked to public Mendeley Data repository record 10.17632/3z7c4r52n3.1"
+  ]
+}

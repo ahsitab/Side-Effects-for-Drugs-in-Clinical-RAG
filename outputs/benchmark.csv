@@ -1,0 +1,31 @@
+id,type,question,gold
+SH1,single_hop,What side effects does aspirin cause?,"Aspirin causes side effects including nausea, vomiting, abdominal pain, dizziness, and headache."
+SH2,single_hop,What diseases does metformin treat?,"Metformin treats diabetes mellitus, particularly type 2 diabetes."
+SH3,single_hop,What side effects does ibuprofen cause?,"Ibuprofen causes side effects including nausea, dyspepsia, dizziness, and headache."
+SH4,single_hop,What condition does atorvastatin treat?,Atorvastatin treats hyperlipidaemia and reduces cardiovascular risk.
+SH5,single_hop,What side effects does warfarin have?,"Warfarin side effects include haemorrhage, bruising, and nausea."
+SH6,single_hop,What does amlodipine treat?,Amlodipine treats hypertension and angina pectoris.
+MH1,multi_hop,Which drugs treat both hypertension and infection?,Several drugs appear in both indications including antibiotics with cardiovascular use.
+MH2,multi_hop,What side effects do drugs that treat hypertension commonly cause?,"Drugs treating hypertension commonly cause dizziness, headache, oedema, and fatigue."
+MH3,multi_hop,Which drugs share the most side effects with aspirin?,"Drugs sharing many side effects with aspirin include sodium, pregabalin, tramadol."
+MH4,multi_hop,What diseases are treated by drugs that cause dizziness?,"Diseases treated by drugs causing dizziness include hypertension, pain, and epilepsy."
+MH5,multi_hop,Which drugs treat cancer and also cause nausea?,"Chemotherapy drugs treat cancer and cause nausea, including doxorubicin and paclitaxel."
+MH6,multi_hop,What side effects do drugs treating renal failure share?,"Drugs treating renal failure share side effects of nausea, dizziness, and headache."
+AG1,aggregation,How many drugs treat hypertension?,43 drugs in the dataset are indicated for hypertension.
+AG2,aggregation,What is the most common side effect across all drugs?,"Dizziness is the most common side effect, appearing in 1758 drug records."
+AG3,aggregation,Which drug has the highest number of side effects?,Pregabalin has the highest number of side effects with 742 documented entries.
+AG4,aggregation,How many drugs treat infection?,74 drugs in the dataset treat infection.
+AG5,aggregation,How many unique diseases are in the dataset?,The dataset covers 1991 unique disease indications.
+AG6,aggregation,Which disease has the most drugs treating it?,Infection has the most drugs treating it with 74 drugs.
+SE1,semantic,Describe what hepatotoxicity means as a drug side effect.,"Hepatotoxicity refers to liver damage caused by a drug, ranging from elevated liver enzymes to liver failure."
+SE2,semantic,Why might a doctor choose warfarin over aspirin for a patient?,"Warfarin is preferred for stronger anticoagulation such as atrial fibrillation, while aspirin provides mild antiplatelet effects."
+SE3,semantic,Explain why many drugs cause nausea as a side effect.,Nausea is common because drugs interact with gastrointestinal receptors or the CNS chemoreceptor trigger zone.
+SE4,semantic,What does it mean when a drug has a pain management indication?,A pain management indication means the drug is clinically used to relieve pain by acting on pain pathways or receptors.
+SE5,semantic,Describe the typical side effect profile of chemotherapy drugs.,"Chemotherapy drugs typically cause nausea, vomiting, fatigue, alopecia, and bone marrow suppression."
+SE6,semantic,What are differences in side effects between antibiotics and antihypertensives?,Antibiotics commonly cause GI effects and allergic reactions; antihypertensives cause dizziness and oedema.
+UN1,unanswerable,What is the retail price of aspirin in Bangladesh?,UNANSWERABLE
+UN2,unanswerable,Who invented metformin and in which year?,UNANSWERABLE
+UN3,unanswerable,What is the LD50 of ibuprofen in mice?,UNANSWERABLE
+UN4,unanswerable,Is paracetamol approved for use in space missions?,UNANSWERABLE
+UN5,unanswerable,What colour are warfarin tablets?,UNANSWERABLE
+UN6,unanswerable,What is Pfizer annual revenue from aspirin?,UNANSWERABLE

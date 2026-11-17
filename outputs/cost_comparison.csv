@@ -1,0 +1,5 @@
+Metric,GraphRAG,VectorRAG
+Indexing time,Cypher batched load ~26s,ChromaDB embed 23.8s
+Mean latency (s),0.91s,0.30s
+Mean context tokens,29,331
+Pipeline complexity,High (schema + entity linking),Medium (serialise + embed)
